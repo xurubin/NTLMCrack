@@ -1,0 +1,215 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\NTLMCrack.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\NTLMCrack.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_NTLMCRACK_DIALOG DIALOGEX 0, 0, 329, 211
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "NTLM Crack"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Quit",IDCANCEL,270,188,50,16
+    LTEXT           "Type 2 Message",IDC_STATIC,7,9,60,8
+    EDITTEXT        IDC_EdtType2,70,7,234,14,ES_AUTOHSCROLL
+    LTEXT           "Type 3 Message",IDC_STATIC,7,27,60,8
+    EDITTEXT        IDC_EdtType3,70,25,234,14,ES_AUTOHSCROLL
+    GROUPBOX        "Information",IDC_STATIC,10,43,132,66
+    LTEXT           "User Name:",IDC_STATIC,16,59,42,8
+    EDITTEXT        IDC_EdtUserName,58,55,78,14,ES_AUTOHSCROLL
+    LTEXT           "Challenge",IDC_STATIC,16,95,42,8
+    EDITTEXT        IDC_EdtChallenge,58,91,78,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Go!",IDC_ProcessMessages,304,7,18,33
+    DEFPUSHBUTTON   "Validate",IDC_BUTTON1,100,110,36,14
+    LTEXT           "Pwd:",IDC_STATIC,10,113,18,8
+    EDITTEXT        IDC_EdtPwd,28,110,72,14,ES_AUTOHSCROLL
+    LTEXT           "Alphabet:",IDC_STATIC,148,57,42,8
+    EDITTEXT        IDC_EdtAlphabet,184,55,132,14,ES_AUTOHSCROLL
+    LTEXT           "MinLen",IDC_STATIC,148,75,24,8
+    EDITTEXT        IDC_EdtAlphabet2,173,73,18,14,ES_AUTOHSCROLL
+    LTEXT           "MaxLen",IDC_STATIC,196,75,24,8
+    EDITTEXT        IDC_EdtAlphabet3,221,73,18,14,ES_AUTOHSCROLL
+    LTEXT           "Current:",IDC_STATIC,242,75,28,8
+    EDITTEXT        IDC_EdtAlphabet4,274,73,42,14,ES_AUTOHSCROLL
+    GROUPBOX        "Configuration",IDC_STATIC,144,42,180,48
+    LTEXT           "Alphabet:",IDC_STATIC,13,77,42,8
+    EDITTEXT        IDC_EdtWorkstation,58,73,78,14,ES_AUTOHSCROLL
+    LTEXT           "Workstation:",IDC_STATIC,13,77,45,8
+    GROUPBOX        "Y""Y""",IDC_STATIC,144,96,180,30
+    EDITTEXT        IDC_EDIT1,156,108,96,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Go!",IDC_BtnFindYY,270,108,50,14
+    GROUPBOX        "Pwd2",IDC_STATIC,144,126,180,30
+    PUSHBUTTON      "Go!",IDC_BtnFindPwd2,270,138,50,14
+    EDITTEXT        IDC_EDITPwd2,156,138,71,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "?",IDC_BUTTON3,256,138,13,14
+    EDITTEXT        IDC_EdtDisplayedX2,227,138,25,14,ES_AUTOHSCROLL
+    GROUPBOX        "Pwd1",IDC_STATIC,144,156,180,30
+    EDITTEXT        IDC_EDITPwd1,156,166,96,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Go!",IDC_BtnFindPwd1,269,165,50,14
+    PUSHBUTTON      "?",IDC_BUTTON4,256,165,13,14
+    GROUPBOX        "Statistics",IDC_STATIC,9,126,132,72
+    LTEXT           "Current:",IDC_STATIC,16,141,42,8
+    EDITTEXT        IDC_EdtCurrent,58,138,78,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Speed:",IDC_STATIC,16,159,42,8
+    EDITTEXT        IDC_EdtSpeed,58,156,78,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Other:",IDC_STATIC,16,177,42,8
+    EDITTEXT        IDC_EdtUserName4,58,174,78,14,ES_AUTOHSCROLL | ES_READONLY
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "NTLMCrack.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "NTLMCrack.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_NTLMCRACK_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 322
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 204
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\NTLMCrack.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
